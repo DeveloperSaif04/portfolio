@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="./packages/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="./packages/css/styles.css">
+
+        <title>developer_saif</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">saif khan</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class="uil uil-estate nav__icon"></i>Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i>About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i>Skills
+                            </a>
+                        </li>
+                          <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i>Services
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i>Projects                               
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i>Contact                               
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/saif-khan-259602298/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                
+                            <a href="https://github.com/DeveloperSaif04" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home__blob-img" x="" xlink:href="packages/images/pras-1.jpeg"/>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Hi, I'am Saif</h1>
+                            <h3 class="home__subtitle">MERN Stack Developer</h3>
+                            <p class="home__description">"Crafting innovation with MERN magic. Transforming ideas into powerful, scalable solutions. Your go-to MERN Stack Developer for a tech-driven future."</p>
+                            <a href="#contact" class="button button--flex home__button">
+                                Contact Me<i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll Down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">My Introduction</span>
+
+                <div class="about__container container grid">
+                    <img src="packages/images/pras-2.jpeg" alt="" class="about__img">
+                    <div class="about__data">
+                        <p class="about__description">
+                            "Driven MERN Stack Developer with a passion for transforming ideas into dynamic web applications. Proficient in MongoDB, Express.js, React, and Node.js. Committed to delivering efficient, scalable solutions with a keen eye for user experience. Eager to contribute expertise to innovate and elevate digital landscapes. Let's build the next-gen web together with MERN magic!"
+                        </p>
+                       
+                        <div class="about__buttons">
+                            <a download="" href="packages/pdf/" class="button button--flex">
+                                Download CV<i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My technical level</span>
+
+                <div class="skills__container container grid">
+                    <div>
+                         <!--==================== SKILL-1 ====================-->
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-analytics skills__icon"></i>
+                               <!-- <div>
+                                   <h1 class="skills__title">Data Analyst</h1>
+                                   <span class="skills__subtitle">More than 2 years</span>
+                               </div> -->
+
+                               <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">HTML,CSS,JavaScript</h3>
+                                
+                                    </div>
+                                    <div class="skills__bar">
+                    
+                                    </div>
+                                </div>
+                               <div class="skills__data">
+                                   <div class="skills__titles">
+                                       <h3 class="skills__name">DOM,Locomotive,GSAP,ScrollTrigger </h3>
+                                       
+                                   </div>
+                                   <div class="skills__bar">
+                            
+                                   </div>
+                               </div>
+                               <div class="skills__data">
+                                   <div class="skills__titles">
+                                       <h3 class="skills__name">Node-JS,Express-JS,MongoDB,SQL</h3>
+                            
+                                   </div>
+                                   <div class="skills__bar">
+                                
+                                   </div>
+                               </div>
+                               <div class="skills__data">
+                                   <div class="skills__titles">
+                                       <h3 class="skills__name">React</h3>
+                    
+                                   </div>
+                                   <div class="skills__bar">
+                            
+                                   </div>
+                               </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+              <!--==================== QUALIFICATION ====================-->
+        <section class="qualification__section">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">My Education journey</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Education
+                    </div>
+
+                   
+                </div>
+
+                <div class="qualification__sections">
+            <!--==================== QUALIFICATION CONTENT 1 ====================-->
+            <div class="qualification__content qualification__active" data-content id="education">
+             <!--==================== QUALIFICATION 1 ====================--> 
+             <div class="qualification__data">
+                 <div>
+                     <h3 class="qualification__title">10th </h3>
+                     <span class="qualification__subtitle">M.P Board of Secondary Education</span>
+                     <div class="qualification__calendar">
+                        <i class="uil uil-calendar-alt"></i>
+                        2017
+                     </div>
+                 </div>
+
+                 <div>
+                     <span class="qualification__rounder"></span>
+                     <span class="qualification__line"></span>
+                 </div>
+             </div>
+             
+             <!--==================== QUALIFICATION 2 ====================--> 
+             <div class="qualification__data">
+                <div></div>
+                <div>
+                   <span class="qualification__rounder"></span>
+                   <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                    <h3 class="qualification__title">Polytechnic</h3>
+                    <span class="qualification__subtitle">University of Polytechnic,RGPV</span>
+                    <div class="qualification__calendar">
+                       <i class="uil uil-calendar-alt"></i>
+                       2017 - 2020
+                    </div>
+                </div>
+            </div> 
+
+            <!--==================== QUALIFICATION 3 ====================--> 
+            <div class="qualification__data">
+                <div>
+                    <h3 class="qualification__title">Bachelor of Technology</h3>
+                    <span class="qualification__subtitle">Sagar Institute of Research & Technology,Bhopal</span>
+                    <div class="qualification__calendar">
+                       <i class="uil uil-calendar-alt"></i>
+                       2020 - 2023
+                    </div>
+                </div>
+
+                <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                </div>
+            </div> 
+
+            <!--==================== QUALIFICATION 4 ====================--> 
+            <div class="qualification__data">
+                <div></div>
+                <div>
+                    <span class="qualification__rounder"></span>
+                   <!-- <span class="qualification__line"></span> -->
+                </div>
+
+                <div>
+                    <h3 class="qualification__title">Web Deveplopment Professional Certification</h3>
+                    <span class="qualification__subtitle">Sheryians Coding School,Bhopal</span>
+                    <div class="qualification__calendar">
+                       <i class="uil uil-calendar-alt"></i>
+                       present
+                    </div>
+                </div>
+
+                
+            </div>
+
+            
+        </section>
+      
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title">Services</h2>
+            <span class="section__subtitle">What I offer</span>
+
+            <div class="services__container container grid">
+        <!--==================== SERVICES 1 ====================-->  
+        <div class="services__content">
+            <div>
+                <i class="uil uil-analytics skills__icon"></i>
+                <h3 class="services__title">DataBase<br></h3>
+            </div>
+            <span class="button button--flex button--small button--link services__button">
+                View more
+                <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+                <div class="services__modal-content">
+                    <h4 class="services__modal-title">DataBase <br></h4>
+                    <i class="uil uil-times services__modal-close"></i>
+
+                    <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>SQL & MongoDB Developer adept at managing relational and NoSQL databases.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Expertise in crafting efficient SQL queries and optimizing MongoDB performance.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Skilled in database design, normalization, and ensuring data integrity.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Passionate about leveraging both SQL and MongoDB to build scalable and robust backend solutions.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>  
+        
+        <!--==================== SERVICES 2 ====================--> 
+        <div class="services__content">
+            <div>
+              <i class="uil uil-arrow services__icon"></i>
+                <h3 class="services__title">Frontend<br> </h3>
+            </div>
+            <span class="button button--flex button--small button--link services__button">
+                View more
+                <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+                <div class="services__modal-content">
+                    <h4 class="services__modal-title">Frontend<br></h4>
+                    <i class="uil uil-times services__modal-close"></i>
+
+                    <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Frontend Developer specializing in creating captivating user interfaces and seamless user experiences.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Proficient in HTML, CSS, and JavaScript, with a focus on responsive design and cross-browser compatibility</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Skilled in popular frameworks/libraries like React,GSAP,Locomotive and many more  to build dynamic and interactive web applications.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Passionate about staying updated on emerging web technologies to deliver cutting-edge frontend solutions.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>  
+       
+        <!--==================== SERVICES 3 ====================-->
+        <div class="services__content">
+            <div>
+                <i class="uil uil-arrow services__icon"></i>
+                <h3 class="services__title">Backend<br></h3>
+            </div>
+            <span class="button button--flex button--small button--link services__button">
+                View more
+                <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+                <div class="services__modal-content">
+                    <h4 class="services__modal-title">Backend<br></h4>
+                    <i class="uil uil-times services__modal-close"></i>
+
+                    <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Backend Developer crafting robust server-side logic and scalable APIs for seamless application functionality.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Expertise in server-side language such as Node.js for versatile backend development</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Skilled in database management, employing SQL or NoSQL solutions for efficient data storage and retrieval.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Passionate about optimizing performance, security, and ensuring a smooth server-client interaction in every project.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+  
+       
+        </div>
+        </section>
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">Most recent works</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+        <!--==================== PORTFOLIO 1 ====================-->
+        
+            <div class="portfolio__content grid swiper-slide">
+                <img src="https://t3.ftcdn.net/jpg/02/65/93/28/360_F_265932837_YGUVI3ZdzkTmkHDBK6QdpzvX8hvr2I0R.jpg" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">Job Application</h3>
+                    <p class="portfolio__description">Streamlined Job Seeker App: Employers register, upload, edit, delete jobs. Job seekers register, log in, apply seamlessly for opportunities.</p>
+                    <a href="https://github.com/DeveloperSaif04/job_app.git" class="button button--flex button--small portfolio__button">
+                        Repository
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!--==================== PORTFOLIO 2 ====================-->
+        
+            <div class="portfolio__content grid swiper-slide">
+                <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--h__u5KM6--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://i.imgur.com/6K2yC4R.png" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">React todolist</h3>
+                    <p class="portfolio__description">"Effortless productivity with React TodoList: Organize tasks, enhance focus. Simplify your day, one task at a time. </p>
+                    <a href="https://github.com/DeveloperSaif04/react_todolist.git" class="button button--flex button--small portfolio__button">
+                        Repository
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+            <!--==================== PORTFOLIO 3 ====================-->
+        
+            <div class="portfolio__content grid swiper-slide">
+                <img src="" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">Due-studio</h3>
+                    <p class="portfolio__description">Elevate your digital experience with our frontend website: Stunning design, seamless navigation. Explore, engage, and immerse yourself in innovation.  </p>
+                    <a href="https://github.com/DeveloperSaif04/Due-studio.git" class="button button--flex button--small portfolio__button">
+                        Repository
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!--==================== PORTFOLIO 4 ====================-->
+        
+            <div class="portfolio__content grid swiper-slide">
+                <img src="https://www.prismetric.com/wp-content/uploads/2023/04/cost-of-developing-an-expense-tracking-app.jpg" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">Expense Traker</h3>
+                    <p class="portfolio__description">Node.js Expense Tracker: Empower financial control. Track spending, analyze trends. Seamless management for a budget-conscious life. .</p>
+                    <a href="https://github.com/DeveloperSaif04/expense-tracker.git" class="button button--flex button--small portfolio__button">
+                        Repository
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+                </div>
+
+            <!-- add arrows-->
+            <div class="swiper-button-next">
+                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+            </div>
+
+            <div class="swiper-button-prev">
+                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            </div>
+
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            
+        
+        </div>
+
+        </section>
+
+
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone-alt contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Call me</h3>
+                            <span class="contatc__subtitle">+91 70007 09368</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">E-mail</h3>
+                            <span class="contatc__subtitle">Saif.coder04@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contatc__subtitle">Bhopal,M.P,India</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Saif Khan</h1>
+                    <span class="footer__subtitle">MERN stack developer</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="footer__link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+
+            
+            </div>
+            <p class="footer__copy">&#169; DeveloperSaif. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="./packages/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="./packages/js/main.js"></script>
+</body>
+
+</html>
